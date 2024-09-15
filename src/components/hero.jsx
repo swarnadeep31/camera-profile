@@ -28,13 +28,14 @@ export default function Hero() {
           <div>
             <div className="text-xl font-semibold p-2">Describtion</div>
             <div className="text-sm p-2 font-semibold">
-              Your full frame journey begins with the Z 5. Simple yet
+              Your full-frame journey begins with the Z 5. Simple yet
               sophisticated, compact yet powerful, the Z 5 is built to grow with
-              you. It’s everything you’d expect from a full frame mirrorless
-              camera—intense detail, expansive views, brilliant low light
-              capabilities, 4K UHD video and more—plus all the innovative tools
-              you need to push the limits of your creativity.
+              you. It&apos;s everything you&apos;d expect from a full-frame
+              mirrorless camera—intense detail, expansive views, brilliant
+              low-light capabilities, 4K UHD video, and more—plus all the
+              innovative tools you need to push the limits of your creativity.
             </div>
+
             <div className="p-2 text-xl font-semibold">Tech Specs</div>
             <div className="p-2 text-xl font-semibold">Shipping & Warranty</div>
           </div>

@@ -33,11 +33,11 @@ export default function Body() {
             Expand your creative playground
           </span>
           <span className="p-4 text-sm font-bold">
-            Z 5 is powered by Nikon’s fast, comprehensive EXPEED 6 image
-            processing system. It’s the secret behind the camera’s sensational
-            photo and video quality, autofocus performance, low-light
-            capabilities, distortion control, image clarity, color reproduction
-            and more.
+            Z 5 is powered by Nikon&apos;s fast, comprehensive EXPEED 6 image
+            processing system. It&apos;s the secret behind the camera&apos;s
+            sensational photo and video quality, autofocus performance,
+            low-light capabilities, distortion control, image clarity, color
+            reproduction and more.
           </span>
         </div>
         <Image
@@ -62,7 +62,7 @@ export default function Body() {
 
       <div className="grid">
         <div className="flex justify-center items-center text-3xl font-bold p-4">
-          Don’t take our word for it
+          Don&apos;t take our word for it
         </div>
         {DATA6.map((op, index) => (
           <div
@@ -92,16 +92,13 @@ export default function Body() {
       <div className=" flex bg-green-950 rounded-2xl text-white p-4">
         <div className="grid ">
           <div className="text-2xl font-bold px-2">
-            Got question ? We are here to help
+            Got question? We are here to help
           </div>
-          <div className="text-sm px-2">
-            If you don’t find an answer in our FAQ page, please contact us
-            below, our customer support is available Monday to Friday: 9am- 5pm.
-          </div>
+
           <div className="flex px-2 gap-4">
             <Button>Contact Us</Button>
             <p className="text-xs p-2 ">
-              You’ll get a response within 24 hours
+              You&apos;ll get a response within 24 hours
             </p>
           </div>
         </div>
