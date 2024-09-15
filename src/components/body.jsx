@@ -16,7 +16,7 @@ export default function Body() {
     <div className="container">
       <div className="p-2 grid justify-center ">
         <span className="font-bold text-3xl p-6 flex justify-center">
-          What's included
+          What&apos;s included
         </span>
       </div>
       <div className="flex p-2 justify-evenly">
@@ -138,7 +138,7 @@ export default function Body() {
         </div>
       </div>
       <div className="bg-green-950 text-white flex justify-center items-center text-4xl p-2 font-bold">
-        YOUR DREAM CAMERA SEARCH ENDS HERE .
+        YOUR DREAM CAMERA SEARCH ENDS HERE
       </div>
     </div>
   );
