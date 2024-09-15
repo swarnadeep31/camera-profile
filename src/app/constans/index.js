@@ -81,7 +81,7 @@ export const DATA5 = [
       />
     ),
     title: "Super powered",
-    body: " Z 5 is powered by Nikon’s fast, comprehensive EXPEED 6 image processing system. It’s the secret behind the camera’s sensational photo and video quality, autofocus performance, low-light capabilities, discontrol, image clarity, color reproduction and more.",
+    body: " Z 5 is powered by Nikon&apos;s fast, comprehensive EXPEED 6 image processing system. It&apos;s the secret behind the camera&apos;s sensational photo and video quality, autofocus performance, low-light capabilities, discontrol, image clarity, color reproduction and more.",
   },
   {
     img: (
@@ -93,7 +93,7 @@ export const DATA5 = [
       />
     ),
     title: "In the blink of an iris.",
-    body: " Freeze time with shutter speeds as fast as 1/8000 of a second—fast enough to capture moments invisible to the naked eye. When shooting with wide aperture settings for shallow depth-of-field and blurred backgrounds, that speed can also be used to control your shot’s brightness",
+    body: " Freeze time with shutter speeds as fast as 1/8000 of a second—fast enough to capture moments invisible to the naked eye. When shooting with wide aperture settings for shallow depth-of-field and blurred backgrounds, that speed can also be used to control your shot&apos;s brightness",
   },
   {
     img: (
@@ -114,7 +114,7 @@ export const DATA6 = [
     title: <span className="font-bold">Best on the market</span>,
     body: (
       <span className="text-sm">
-        I love this product because the support is great. Please{" "}
+        I love this product because the support is great. Please
       </span>
     ),
     footer: <span className="font-bold">Worldtraveler</span>,
@@ -123,7 +123,7 @@ export const DATA6 = [
     title: <span className="font-bold">Best on the market</span>,
     body: (
       <span className="text-sm">
-        I love this product because the support is great. Please{" "}
+        I love this product because the support is great. Please
       </span>
     ),
     footer: <span className="font-bold">Worldtraveler</span>,
@@ -132,7 +132,7 @@ export const DATA6 = [
     title: <span className="font-bold">Best on the market</span>,
     body: (
       <span className="text-sm">
-        I love this product because the support is great. Please{" "}
+        I love this product because the support is great. Please
       </span>
     ),
     footer: <span className="font-bold">Worldtraveler</span>,
@@ -141,7 +141,7 @@ export const DATA6 = [
     title: <span className="font-bold">Best on the market</span>,
     body: (
       <span className="text-sm">
-        I love this product because the support is great. Please{" "}
+        I love this product because the support is great. Please
       </span>
     ),
     footer: <span className="font-bold">Worldtraveler</span>,
