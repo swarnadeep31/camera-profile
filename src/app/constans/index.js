@@ -81,7 +81,7 @@ export const DATA5 = [
       />
     ),
     title: "Super powered",
-    body: " Z 5 is powered by Nikon&apos;s fast, comprehensive EXPEED 6 image processing system. It&apos;s the secret behind the camera&apos;s sensational photo and video quality, autofocus performance, low-light capabilities, discontrol, image clarity, color reproduction and more.",
+    body: "Z 5 is powered by Nikon&apos;s fast, comprehensive EXPEED 6 image processing system. It&apos;s the secret behind the camera&apos;s sensational photo and video quality, autofocus performance, low-light capabilities, discontrol, image clarity, color reproduction, and more.",
   },
   {
     img: (
@@ -93,7 +93,7 @@ export const DATA5 = [
       />
     ),
     title: "In the blink of an iris.",
-    body: " Freeze time with shutter speeds as fast as 1/8000 of a second—fast enough to capture moments invisible to the naked eye. When shooting with wide aperture settings for shallow depth-of-field and blurred backgrounds, that speed can also be used to control your shot&apos;s brightness",
+    body: "Freeze time with shutter speeds as fast as 1/8000 of a second—fast enough to capture moments invisible to the naked eye. When shooting with wide aperture settings for shallow depth-of-field and blurred backgrounds, that speed can also be used to control your shot&apos;s brightness.",
   },
   {
     img: (
@@ -104,8 +104,8 @@ export const DATA5 = [
         className="p-2 rounded-2xl max-w-min"
       />
     ),
-    title: "The stabilityyou crave.",
-    body: "Sharpness starts with stability, and Z 5 has one of the best in-camera image stabilization systems available. NIKKOR Z lenses activate 5-axis VR image stabilization—up to five stops* of stabilization in up to five directions",
+    title: "The stability you crave.",
+    body: "Sharpness starts with stability, and Z 5 has one of the best in-camera image stabilization systems available. NIKKOR Z lenses activate 5-axis VR image stabilization—up to five stops* of stabilization in up to five directions.",
   },
 ];
 
