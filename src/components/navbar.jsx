@@ -6,11 +6,11 @@ import { IoCartOutline } from "react-icons/io5";
 
 export default function Navbar() {
   return (
-    <div className="container">
+    <div className=" w-full">
       <div className="flex justify-center items-center bg-black text-white ">
         Free Delivery order above 500
       </div>
-      <div className="flex justify-between p-3 ">
+      <div className="flex container items-start mx-auto  grid-cols-6 justify-between p-3 ">
         <div className="flex">
           <Image src="/logo.png" height={50} width={50} />
           <div className="text-2xl gap-2  font-bold p-2">SID</div>

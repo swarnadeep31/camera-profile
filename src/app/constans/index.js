@@ -77,7 +77,7 @@ export const DATA5 = [
         src="/profile.jpg"
         width={300}
         height={300}
-        className="p-2 rounded-2xl max-w-min"
+        className="p-2 rounded-2xl min-w-48 xl:w-auto"
       />
     ),
     title: "Super powered",
@@ -89,7 +89,7 @@ export const DATA5 = [
         src="/ball.jpg"
         width={300}
         height={300}
-        className="p-2 rounded-2xl max-w-min"
+        className="p-2 rounded-2xl min-w-48 xl:w-auto"
       />
     ),
     title: "In the blink of an iris.",
@@ -101,11 +101,11 @@ export const DATA5 = [
         src="/profile.jpg"
         width={300}
         height={300}
-        className="p-2 rounded-2xl max-w-min"
+        className="p-2 rounded-2xl min-w-48 xl:w-auto"
       />
     ),
     title: "The stability you crave.",
-    body: "Sharpness starts with stability, and Z 5 has one of the best in-camera image stabilization systems available. NIKKOR Z lenses activate 5-axis VR image stabilization—up to five stops* of stabilization in up to five directions.",
+    body: "Z 5 is powered by Nikon&apos;s fast, comprehensive EXPEED 6 image processing system. It&apos;s the secret behind the camera&apos;s sensational photo and video quality, autofocus performance, low-light capabilities, discontrol, image clarity, color reproduction, and more.",
   },
 ];
 
@@ -159,11 +159,7 @@ export const DATA7 = [
     body: "Nikon Z6",
     body1: "$2496.95",
   },
-  {
-    img: <Image src="/camera3.jpg" width={100} height={100} />,
-    body: "Canon EOS R100",
-    body1: "$399.00",
-  },
+
   {
     img: <Image src="/camera4.jpg" width={100} height={100} />,
     body: "Sony a7R V",

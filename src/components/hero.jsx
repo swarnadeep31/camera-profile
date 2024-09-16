@@ -1,5 +1,4 @@
 import React from "react";
-import { FaRegStar } from "react-icons/fa";
 import { Button } from "./ui/button";
 import { IoHardwareChipOutline } from "react-icons/io5";
 import { RiCameraLensFill } from "react-icons/ri";
@@ -9,12 +8,13 @@ import { IoChatbubblesOutline } from "react-icons/io5";
 import { FiBox } from "react-icons/fi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 import Image from "next/image";
+import { IoMdStar, IoMdStarHalf } from "react-icons/io";
 
 export default function Hero() {
   return (
-    <div className="flex  container">
-      <div className="flex gap-6 p-2">
-        <div className="p-6 gap-2 grid">
+    <div className="flex container mx-auto">
+      <div className="flex gap-2 xl:gap-6 p-2">
+        <div className="p-4 xl:p-6  grid">
           <Image src="/main.jpg" width={300} height={300} />
           <Image src="/top.jpg" width={300} height={300} />
           <Image src="/back.jpg" width={300} height={300} />
@@ -26,8 +26,10 @@ export default function Hero() {
             <Image src="/main.jpg" width={450} height={450} />
           </div>
           <div>
-            <div className="text-xl font-semibold p-2">Describtion</div>
-            <div className="text-sm p-2 font-semibold">
+            <div className="text-base xl:text-xl font-semibold p-2">
+              Describtion
+            </div>
+            <div className="text-xs xl:text-sm  p-2 font-semibold">
               Your full-frame journey begins with the Z 5. Simple yet
               sophisticated, compact yet powerful, the Z 5 is built to grow with
               you. It&apos;s everything you&apos;d expect from a full-frame
@@ -36,16 +38,20 @@ export default function Hero() {
               innovative tools you need to push the limits of your creativity.
             </div>
 
-            <div className="p-2 text-xl font-semibold">Tech Specs</div>
-            <div className="p-2 text-xl font-semibold">Shipping & Warranty</div>
+            <div className="p-2 text-base xl:text-xl font-semibold">
+              Tech Specs
+            </div>
+            <div className="p-2 text-base xl:text-xl font-semibold">
+              Shipping & Warranty
+            </div>
           </div>
         </div>
       </div>
 
       <div className="flex justify-between">
         <div className="grid gap-2 p-2 ">
-          <div className="text-2xl font-bold">NikonZ5</div>
-          <div className=" text-xl">$899</div>
+          <div className=" text-lg xl:text-2xl font-bold">NikonZ5</div>
+          <div className="text-sm xl:text-xl">$899</div>
           <div className=" text-sm  ">options</div>
           <div>
             <div className="flex gap-3">
@@ -85,7 +91,7 @@ export default function Hero() {
               </Button>
             </div>
           </div>
-          <div className="gap-6 flex">
+          <div className="xl:gap-6 flex text-base">
             <div className="p-2 gap-2 flex font-semibold ">
               <IoChatbubblesOutline size={30} />
               Got any Questions
@@ -106,12 +112,12 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex  p-2 ">
-          4.2(1234)
-          <FaRegStar size={20} />
-          <FaRegStar size={20} />
-          <FaRegStar size={20} />
-          <FaRegStar size={20} />
-          <FaRegStar size={20} />
+          4.5(1234)
+          <IoMdStar size={20} />
+          <IoMdStar size={20} />
+          <IoMdStar size={20} />
+          <IoMdStar size={20} />
+          <IoMdStarHalf size={20} />
         </div>
       </div>
     </div>

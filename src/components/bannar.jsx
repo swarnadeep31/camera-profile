@@ -7,10 +7,9 @@ export default function Bannar() {
         {/* Image section */}
         <Image
           src="/full.jpg"
-          alt="Camera"
-          width={600}
-          height={600}
-          className="w-full h-full  rounded-2xl p-3"
+          width={900}
+          height={900}
+          className="w-full object-cover h-full  rounded-2xl p-3"
         />
         {/* Text overlay */}
         <div className="absolute inset-0 flex items-center justify-center">
